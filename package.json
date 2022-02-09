@@ -1,0 +1,20 @@
+{
+  "name": "node-cron-backups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backups"
+  ],
+  "author": "Luis Albanese",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "aws-sdk": "^2.1066.0",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0"
+  }
+}
